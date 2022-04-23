@@ -4,10 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
-
+lire.md
 # testing
 /coverage
-read.md
+
 # next.js
 /.next/
 /out/
