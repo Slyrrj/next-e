@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-/.read.md
+read.md
 # next.js
 /.next/
 /out/
