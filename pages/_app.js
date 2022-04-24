@@ -5,13 +5,12 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     //supprimer css sur le server
     const jssStyles = document.querySelector('#jss-server-side');
-    //si jssStryles existe
+    //si jssStyles existe
     if (jssStyles) {
       //appellerle parent et supprimer son enfant
       jssStyles.parentElement.removeChild(jssStyles);
     }
   }, []);
-
   return <Component {...pageProps} />;
 }
 
