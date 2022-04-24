@@ -14,10 +14,21 @@ const useStyles = makeStyles({
   },
 
   main: {
-    maxWidth: '80vh',
+    minHeight: '80vh',
   },
   footer: {
+    marginTop: 10,
     textAlign: 'center',
+  },
+  section: {
+    marginTop: 10,
+    marginBottom: 10,
+  },
+  btn: {
+    backgroundColor: '#912F40',
+  },
+  sectR: {
+    marginTop: 40,
   },
 });
 export default useStyles;
