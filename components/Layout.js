@@ -14,6 +14,7 @@ import {
 } from '@material-ui/core';
 import useStyles from '../utils/styles';
 import { Store } from '../utils/Store';
+import jsCookie from 'js-cookie';
 export default function Layout({ title, description, children }) {
   const { state, dispatch } = useContext(Store);
   const { darkMode } = state;
@@ -44,6 +45,8 @@ export default function Layout({ title, description, children }) {
   const classes = useStyles();
   const darkModeChangeHandler = () => {
     dispatch({ type: darkMode ? 'DARK_MODE_OFF' : 'DARK_MODE_ON' });
+    const newDarkMode = !darkMode;
+    jsCookie.set('darkMode', newDarkMode ? 'ON' : 'OFF');
   };
   return (
     <div>
