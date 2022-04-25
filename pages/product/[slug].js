@@ -72,7 +72,7 @@ export default function ProductScreen() {
             </ListItem>
           </List>
         </Grid>
-        <Grid item md={3} xs={12} className={classes.sectR}>
+        <Grid item md={3} xs={12} className={classes.sectPrix}>
           <Card>
             <List>
               <ListItem>

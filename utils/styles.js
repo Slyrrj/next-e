@@ -24,11 +24,15 @@ const useStyles = makeStyles({
     marginTop: 10,
     marginBottom: 10,
   },
-  btn: {
-    backgroundColor: '#912F40',
-  },
+  // btn: {
+  //   backgroundColor: '#912F40',
+  // },
   sectR: {
     marginTop: 40,
+  },
+
+  sectPrix: {
+    marginTop: 70,
   },
 });
 export default useStyles;
